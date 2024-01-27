@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+#logos {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+#fb {
+    height: 100px;
+    width: 100px;
+}
+
+#ig {
+    height: 100px;
+    width: 100px;
+}
+
+#x {
+    height: 100px;
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* font-size: 10px; */
+}
+
+@media only screen and (max-width: 1023px) {
+    h2 {
+        padding-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+        /* .buttons {
+            height: 20px;
+            width: 20px;
+        } */
+
+    #fb {
+        height: 50px;
+        width: 50px;
+    }
+
+    #ig {
+        height: 50px;
+        width: 50px;
+    }
+
+    #x {
+        height: 50px;
+        width: 50px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+}
+
